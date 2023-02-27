@@ -1,7 +1,7 @@
 // src/App.js
 
 import React, { useState } from 'react';
-import { add } from '../../pkg/reactjs_wasm.js';
+import { add } from './pkg/reactjs_wasm.js';
 
 function App() {
   const [result, setResult] = useState(0);
