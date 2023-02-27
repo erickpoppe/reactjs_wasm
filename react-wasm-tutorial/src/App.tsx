@@ -1,4 +1,5 @@
-import React from 'react';
+import and call
+import React, { useEffect, useState } from 'react';
 import init, { add } from "wasm-lib";
 import logo from './logo.svg';
 import './App.css';
