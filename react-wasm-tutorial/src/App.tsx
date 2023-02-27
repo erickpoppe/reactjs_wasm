@@ -7,7 +7,7 @@ function App() {
   const [ans, setAns] = useState(0);
   useEffect(() => {
     init().then(() => {
-      setAns(add(1, 1));
+      setAns(add(19, 3));
     })
   }, [])
   return (
